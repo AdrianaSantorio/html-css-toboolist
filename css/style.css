@@ -11,9 +11,7 @@ body {
     font-family: Gilroy;
 }
 
-ul {
-    list-style-type: none;
-}
+
 
 
 /* utilities */
@@ -22,7 +20,7 @@ ul {
 .container {
     width: 700px;
     background-color: white;
-    margin: auto;
+    margin: 2px auto;
 }
 
 /* header */
@@ -66,4 +64,19 @@ h1 {
 .buttons:hover {
     background-color: #1E90FF;
     color: white;
+}
+
+/* list */
+
+ul {
+    line-height: 50px;
+    list-style-position: inside;
+}
+
+.timeline {
+    list-style-type: "\25BC";
+}
+
+.to-do {
+    list-style-type: none;
 }
