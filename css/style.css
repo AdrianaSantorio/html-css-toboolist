@@ -8,13 +8,9 @@
 /* Generals */
 
 body {
-    background-color: #F6F8F9;
+    /* background-color: #F6F8F9; */
+    background-color: tomato;
     font-family: Gilroy;
-}
-
-h2 {
-    display: inline;
-    font-size: medium;
 }
 
 .header{
@@ -27,7 +23,6 @@ main {
 
 /* utilities */
 
-
 .container {
     width: 700px;
     background-color: white;
@@ -36,11 +31,6 @@ main {
 }
 
 /* header */
-
-.list-header {
-    border-top-left-radius:  8px;
-    border-top-right-radius: 8px;
-}
 
 .header {
     background-color: white;
@@ -58,6 +48,20 @@ h1 {
 }
 
 /* main */
+
+section {
+    margin-bottom: 50px;
+    /* non funziona. sbarrato in inspector, boh */
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* list-header */
+
+.list-header {
+    border-top-left-radius:  8px;
+    border-top-right-radius: 8px;
+}
 
 button {
     margin: 1px;
@@ -85,6 +89,13 @@ button:hover {
     list-style-position: inside;
     list-style-type: "\25BC";
 }
+
+h2 {
+    display: inline;
+    font-size: medium;
+}
+
+
 
 .to-do {
     line-height: 40px;
