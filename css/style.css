@@ -6,7 +6,28 @@
 
 /* Generals */
 
-
+body {
+    background-color: #F6F8F9;
+    font-family: Gilroy;
+}
 
 /* utilities */
 
+
+
+
+/* header */
+
+header {
+    background-color: white;
+}
+
+#logo {
+    margin: 10px 0px 10px 20px;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline;
+    vertical-align: middle;
+}
