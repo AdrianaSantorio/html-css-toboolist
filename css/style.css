@@ -11,16 +11,23 @@ body {
     font-family: Gilroy;
 }
 
+
+
 /* utilities */
 
 
-
+.container {
+    width: 700px;
+    background-color: white;
+    margin: auto;
+}
 
 /* header */
 
-header {
+.header {
     background-color: white;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 50px;
 }
 
 #logo {
@@ -31,4 +38,29 @@ header {
 h1 {
     display: inline;
     vertical-align: middle;
+}
+
+/* main */
+.list-header{
+    padding: 20px 40px;
+}
+
+
+.buttons {
+    margin: 1px;
+    display: inline-block;
+    padding: 5px;
+    background-color: white;
+    color: gray;
+    font-family:  'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    vertical-align: middle;
+    border: 0.5px solid lightgray;
+    border-radius: 4px;
+}
+
+.buttons:hover {
+    background-color: #1E90FF;
+    color: white;
 }
