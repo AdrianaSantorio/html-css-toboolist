@@ -86,7 +86,8 @@ button:hover {
 .timeline {
     line-height: 50px;
     list-style-position: inside;
-    list-style-type: "\25BC";
+    list-style-type: "\1F893";
+    /* ma che grandezza e che posizionamento */
 }
 
 h2 {
