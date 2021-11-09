@@ -8,8 +8,7 @@
 /* Generals */
 
 body {
-    /* background-color: #F6F8F9; */
-    background-color: tomato;
+    background-color: #F6F8F9;
     font-family: Gilroy;
 }
 
@@ -102,6 +101,9 @@ h2 {
     list-style-type: none;
 }
 
+
+/* etichette */
+
 .etichetta {
     display: inline-block;
     padding: 5px;
@@ -136,4 +138,24 @@ background-color: #D863A1 ;
 .Sales {
 background-color: #B0C926 ;    
 }
+
+/* span/entities */
+
+.check {
+    border: 1px solid green;
+    border-radius: 50%;
+    color:green;
+    padding: 2px 1px 0px;
+    font-size:10px;
+    text-align: bottom;
+  }
+
+  .cross {
+    border: 1px solid red;
+    border-radius: 50%;
+    color:red;
+    padding: 2px 1px 0px;
+    font-size:10px;
+    text-align: bottom;
+  }
 
