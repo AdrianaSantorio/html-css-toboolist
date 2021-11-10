@@ -9,7 +9,6 @@
 
 body {
     background-color: #F6F8F9;
-    font-family: Gilroy;
 }
 
 .header{
@@ -31,17 +30,19 @@ main {
 
 /* header */
 
-.header {
+header {
+    height: 70px;
     background-color: white;
     margin-bottom: 50px;
 }
 
 #logo {
-    margin: 10px 0px 10px 20px;
+    margin-left: 10px;
     vertical-align: middle;
 }
 
 h1 {
+    line-height: 70px;
     display: inline;
     vertical-align: middle;
 }
