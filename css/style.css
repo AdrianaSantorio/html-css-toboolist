@@ -8,26 +8,26 @@
 /* Generals */
 
 body {
-    /* background-color: #F6F8F9; */
-    background-color: royalblue;
+    background-color: #F6F8F9;
 }
 
-.header{
+header{
     font-family: 'Montserrat', sans-serif;
 }
 
 main {
     font-family: 'Roboto', sans-serif;
+    padding: 50px 0;
 }
 
 /* utilities */
 
 .container {
-    width: 700px;
+    width: 50%;
     background-color: white;
     margin: auto;
     padding: 20px 40px;
-    border-radius: 5px;
+    border-radius: 4px;
     margin-top: 1px;
 }
 
@@ -36,7 +36,6 @@ main {
 header {
     height: 70px;
     background-color: white;
-    margin-bottom: 50px;
 }
 
 #logo {
@@ -75,22 +74,23 @@ button:hover {
 
 /*Task list */
 
+li {
+    padding: 10px 0;
+}
+
 .timeline {
-    line-height: 50px;
     list-style-position: inside;
     list-style-type: "\25BC";
 }
 
-h2 {
+li>h2 {
     display: inline;
     font-size: medium;
 }
 
 .task-list {
-    line-height: 40px;
     list-style-type: none;
 }
-
 
 /* etichette */
 
