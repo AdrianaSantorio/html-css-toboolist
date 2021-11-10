@@ -98,34 +98,33 @@ li>h2 {
     display: inline-block;
     padding: 3px 7px;
     color: white;
-    line-height: normal;
     font-weight: 400;
     font-size: 10px;
     vertical-align: middle;
     border-radius: 20px;
 }
 
-.Editorial {
+.pill.editorial {
 background-color: #45ABEA;
 }
 
-.Q1-goals {
+.pill.Q1-goals {
 background-color: #9C72E4 ;
 }
 
-.Recruiting {
+.pill.recruiting {
 background-color: #64C0A9 ;
 }
 
-.Mobile {
+.pill.mobile {
 background-color: #F29E33;
 }
 
-.Website {
+.pill.website {
 background-color: #D863A1 ;
 }
 
-.Sales {
+.pill.sales {
 background-color: #B0C926 ;    
 }
 
@@ -135,7 +134,7 @@ background-color: #B0C926 ;
     display: inline-block;
     width: 15px;
     height: 15px;
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 50%;
     vertical-align: middle;
     text-align: center;
